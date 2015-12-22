@@ -8,11 +8,10 @@ export default Ember.Controller.extend({
     'model.twitter',
     {
       get() {
-        return
-        !Ember.isEmpty(this.get('model.email')) &&
-        !Ember.isEmpty(this.get('model.firstName')) &&
-        !Ember.isEmpty(this.get('model.lastName')) &&
-        !Ember.isEmpty(this.get('model.twitter'));
+        return !Ember.isEmpty(this.get('model.email')) &&
+               !Ember.isEmpty(this.get('model.firstName')) &&
+               !Ember.isEmpty(this.get('model.lastName')) &&
+               !Ember.isEmpty(this.get('model.twitter'));
       }
     }),
   actions: {
