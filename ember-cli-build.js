@@ -21,16 +21,16 @@ module.exports = function(defaults) {
   // along with the exports of each module as its value.
 
   app.import('vendor/fontello/fontello.css');
-  app.import('vendor/fontello/fontello.ttf', {
+  app.import('vendor/fontello/font/fontello.ttf', {
     distDir: 'font'
   });
-  app.import('vendor/fontello/fontello.eot', {
+  app.import('vendor/fontello/font/fontello.eot', {
     distDir: 'font'
   });
-  app.import('vendor/fontello/fontello.svg', {
+  app.import('vendor/fontello/font/fontello.svg', {
     distDir: 'font'
   });
-  app.import('vendor/fontello/fontello.woff', {
+  app.import('vendor/fontello/font/fontello.woff', {
     distDir: 'font'
   });
 
