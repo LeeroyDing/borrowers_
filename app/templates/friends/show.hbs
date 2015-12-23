@@ -4,4 +4,6 @@
   <li>Email: {{model.email}}</li>
   <li>twitter: {{model.twitter}}</li>
 </ul>
-{{link-to 'Back' 'friends.index'}} {{link-to 'Edit' 'friends.edit' model}}
+{{link-to 'Back' 'friends.index'}}
+{{link-to 'Edit' 'friends.edit' model}}
+<a href="#" {{action 'delete' model}}>Delete</a>
