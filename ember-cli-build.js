@@ -20,5 +20,21 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('vendor/fontello/fontello.css');
+  app.import('vendor/fontello/fontello.ttf', {
+    distDir: 'font'
+  });
+  app.import('vendor/fontello/fontello.eot', {
+    distDir: 'font'
+  });
+  app.import('vendor/fontello/fontello.svg', {
+    distDir: 'font'
+  });
+  app.import('vendor/fontello/fontello.woff', {
+    distDir: 'font'
+  });
+
+  app.import('bower_components/picnic/releases/plugins.min.css');
+
   return app.toTree();
 };
