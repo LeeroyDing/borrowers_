@@ -8,7 +8,7 @@
   <tbody>
     {{#each model as |friend|}}
       <tr>
-        <td>{{link-to friend.fullName 'friends.show' friend}}</td>
+        <td>{{link-to friend.fullName 'articles' friend}}</td>
         <td><a href="#" {{action 'delete' friend}}>Delete</a></td>
       </tr>
     {{/each}}
