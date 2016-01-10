@@ -1,6 +1,6 @@
 <td>{{article.description}}</td>
 <td>{{article.notes}}</td>
-<td>{{article.insertedAt}}</td>
+<td>{{formatted-date article.insertedAt 'LL'}}</td>
 <td>
   {{#x-select value=article.state action="saveArticle"}}
     {{#each articleStates as |state| }}
