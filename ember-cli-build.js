@@ -38,7 +38,5 @@ module.exports = function(defaults) {
 
   app.import('bower_components/moment/moment.js');
 
-  app.import('bower_components/ic-ajax/dist/named-amd/main.js');
-
   return app.toTree();
 };
